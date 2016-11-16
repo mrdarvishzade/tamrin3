@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">tamrin3</string>
+    <string name="signin">ورود</string>
+    <string name="signup">عضویت</string>
+    <string name="terms">شرایط و قوانین</string>
+    <string name="forget">فراموشی رمز ورود</string>
+    <string name="signinpage">signinpage</string>
+    <string name="signuppage">signuppage</string>
+    <string name="forgetpage">forgetpage</string>
+    <string name="termspage">termspage</string>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.darvishzade.tamrin3.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:textSize="30sp"
+            android:id="@+id/btnsignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signin" />
+
+        <Button
+            android:textSize="30sp"
+            android:id="@+id/btnsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnsignin"
+            android:text="@string/signup" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btns">
+
+    <TextView
+        android:background="#665a83f5"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnsignin"
+        android:layout_margin="10dp"
+        android:text="@string/forget" />
+
+    <TextView
+        android:background="#665a83f5"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnsignin"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:text="@string/terms" />
+    </LinearLayout>
+
+</RelativeLayout>
+
